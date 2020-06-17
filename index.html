@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+
+    <link rel="stylesheet" href="css/style-2.css" crossorigin="anonymous" />
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>Screenshot</h1>
+    <br /><br /> Current session
+    <h3 id="namesss"></h3>
+    <br /><br />
+    <div id="basicUsage">00:00:00</div>
+
+    <label class="switch">
+      <input type="checkbox" id="timeSwitch" />
+      <span class="slider round"></span>
+    </label>
+    <br /><br />
+    <img src="./img/download.png" id="imageid" height="200" width="333" /><br /><br />
+    <h1 id="keyEvent"></h1>
+    <!-- You can also require other files to run in this process -->
+
+    <script src="./renderer.js"></script>
+
+    <script src="./js/dataStore.js"></script>
+    <script src="./js/timer.js"></script>
+</body>
+
+</html>

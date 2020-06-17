@@ -1,0 +1,180 @@
+.Tracker-box {
+    max-width: 345px;
+    height: auto;
+    background-color: #fff;
+    margin: 25px auto;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.tracker-header {
+    background-color: #3f3e3b;
+    padding: 2px 10px;
+    text-align: center;
+    min-height: 30px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.tracker-header h1 {
+    color: #9b9b9b;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 0px;
+    display: inline-block;
+}
+
+.tracker-header span {
+    float: right;
+}
+
+.tracker-header span button {
+    width: 18px;
+    height: 18px;
+    background-color: #65645d;
+    box-shadow: none;
+    border-radius: 50%;
+    border: 1px solid #464541;
+    text-align: center;
+    padding: 0;
+}
+
+.tracker-header span {
+    float: right;
+    padding: 4px 0px;
+    line-height: 0px;
+}
+
+.tracker-header span button i {
+    color: #3e3d39;
+    font-size: 12px;
+    top: 0;
+    text-align: center;
+}
+
+.tracker-header span button:focus {
+    outline: 0;
+}
+
+.mini i {
+    margin-top: 1px;
+}
+
+.tracker-text {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.tracker-text h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #6fda44;
+}
+
+.tracker-text h2 span {
+    color: #494949;
+}
+
+.tracker-text-box {
+    padding-top: 51px;
+    padding-bottom: 25px;
+}
+
+.tracker-text p {
+    color: #494949;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.t-input-box input {
+    border: 1px solid #e1e1e1;
+    height: 38px;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 45px;
+    border-radius: 4px;
+}
+
+.t-input-box input:focus {
+    outline: 1px;
+    outline-color: green;
+}
+
+.t-input-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.t-input-box img {
+    position: absolute;
+    top: 12px;
+    max-width: 15px;
+    left: 16px;
+}
+
+.t-input-box i {
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    font-size: 17px;
+    color: #37a000;
+}
+
+.t-input-box input::placeholder {
+    font-size: 14px;
+    color: #b5b5b5;
+    font-weight: 500;
+}
+
+button.login-btn {
+    width: 100%;
+    border: none;
+    background-color: #37a000;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+.tracker-login .t-input-box:last-child {
+    margin-bottom: 15px;
+}
+
+.check-box {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.check-box input {
+    vertical-align: middle;
+    height: 11px;
+}
+
+.check-box span {
+    font-size: 13px;
+    margin-left: 2px;
+    padding: 2px 0px;
+}
+
+a.forgot {
+    display: block;
+    text-align: center;
+    margin-top: 34%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.loader {
+    max-width: 8%;
+    margin-left: 6px;
+    display: none;
+}
+
+.cust-color {
+    color: #000000 !important;
+}

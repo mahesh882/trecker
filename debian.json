@@ -1,0 +1,6 @@
+{
+    "dest": "release-builds/",
+    "executableName": "test",
+    "categories": ["Utility"],
+    "lintianOverrides": ["changelog-file-missing-in-native-package"]
+}

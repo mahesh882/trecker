@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" crossorigin="anonymous" />
+
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- <div class="container h-100">
+        <div class="d-flex justify-content-center h-100">
+            <div class="user_card">
+                <div class="d-flex justify-content-center">
+                    <div class="brand_logo_container">
+                        <img src="img/logo.png" class="brand_logo" alt="Logo" />
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center form_container">
+                    <form id="login_form">
+                        <div class="input-group mb-3">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><img src="img/user.png"
+                  /></span>
+                            </div>
+                            <input type="text" required="true" name="username" value="user" class="form-control input_user" id="txtUsr" value="" placeholder="Username" />
+                        </div>
+                        <div class="input-group mb-2">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><img src="img/key.png"
+                  /></span>
+                            </div>
+                            <input type="password" required="true" name="password" value="sparkle1#" id="txtPwd" class="form-control input_pass" value="" placeholder="Password" />
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customControlInline" />
+                                <label class="custom-control-label" for="customControlInline">Remember me</label
+                  >
+                </div>
+              </div>
+              <div class="d-flex justify-content-center mt-3 login_container">
+                <button type="button" id="btn_login" class="btn login_btn">
+                  Login<img class="ajax_loder" src="img/ajax-loader.gif" />
+                </button>
+              </div>
+              <label id="lbl"></label>
+                    </form>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="d-flex justify-content-center links">
+                            <a href="#">Forgot your password?</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div> -->
+    <div class="container">
+        <div class="Tracker-box">
+            <!-- <div class="tracker-header">
+                        <h1>Log in - Sparkle Tracker</h1>
+                        <span>
+                    <button class="mini">
+                      <i class="fa fa-minus" aria-hidden="true"></i>
+                    </button>
+                    <button class="close-1">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                  </span>
+                    </div> -->
+            <div class="tracker-text-box">
+                <div class="tracker-text">
+                    <h2>Sparkle <span class="cust-color">Tracker</span></h2>
+                    <p class="cust-color">Log in and get to work</p>
+                </div>
+                <form id="login_form">
+                    <div class="tracker-login">
+                        <div class="t-input-box">
+                            <img src="img/User.png" />
+                            <input type="text" name="text" required="true" name="username" placeholder="Username or Email" id="txtUsr" />
+                        </div>
+                        <div class="t-input-box">
+                            <img src="img/Key.png" />
+                            <input type="password" required="true" name="password" id="txtPwd" placeholder="Password" />
+                        </div>
+                        <!-- <div class="check-box">
+                            <input type="checkbox" name="text" />
+                            <span>Remember Me</span>
+                        </div> -->
+                        <label id="lbl"></label>
+                        <button class="login-btn login_btn" type="button" id="btn_login">
+                Continue
+                <img src="img/ajax-loader.gif" class="loader ajax_loder" />
+              </button>
+
+                        <!-- <a href="#" class="forgot">Forgot your password?</a> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script src="./js/dataStore.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

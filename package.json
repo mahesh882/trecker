@@ -1,0 +1,54 @@
+{
+    "name": "electron_quick_start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+        "Electron",
+        "quick",
+        "start",
+        "tutorial",
+        "demo"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+        "electron": "^9.0.2"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "easytimer.js": "^4.1.1",
+        "electron-installer-debian": "^3.0.0",
+        "electron-squirrel-startup": "^1.0.0",
+        "electron-store": "^5.2.0",
+        "electron-winstaller": "^4.0.0",
+        "iohook": "^0.6.5",
+        "jquery": "^3.5.1",
+        "jquery-validation": "^1.19.2",
+        "localStorage": "^1.0.4",
+        "log-to-file": "^2.0.2",
+        "node-cron": "^2.0.3",
+        "request": "^2.88.2",
+        "screenshot-desktop": "^1.12.1",
+        "url": "^0.11.0"
+    },
+    "iohook": {
+        "targets": [
+            "node-64",
+            "electron-76"
+        ],
+        "platforms": [
+            "win32",
+            "darwin",
+            "linux"
+        ],
+        "arches": [
+            "x64",
+            "ia32"
+        ]
+    }
+}
