@@ -28,7 +28,7 @@
         "electron-winstaller": "^4.0.0",
         "iohook": "^0.6.5",
         "jquery": "^3.5.1",
-        "jquery-validation": "^1.19.2",
+        "jquery-validation": "^1.19.4",
         "localStorage": "^1.0.4",
         "log-to-file": "^2.0.2",
         "node-cron": "^2.0.3",
